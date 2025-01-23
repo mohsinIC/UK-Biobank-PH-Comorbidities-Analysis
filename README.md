@@ -44,7 +44,7 @@ This project analyzes Pulmonary Hypertension (PH) comorbidities in UK Biobank pa
 
 ## Requirements
 Install the following Python libraries:
->>>>>>> 164f7a69863c7d2b625767f899ac50d6124216c5
+
 ```bash
 pip install numpy pandas matplotlib
 ```
@@ -66,7 +66,7 @@ Each dataset contributes to building a comprehensive view of participant health 
 ## Usage
 Follow these steps to run the project:
 
-=======
+
 ## Usage
 
 1. Clone this repository to your local system:
@@ -83,8 +83,6 @@ Follow these steps to run the project:
 3. Install the required libraries using the command provided above.
 
 4. Open the Jupyter Notebook in your environment:
-=======
-3. Open the Jupyter Notebook in your environment:
 
    ```bash
    jupyter notebook UK_Biobank_PH_Comorbidities.ipynb
@@ -97,9 +95,12 @@ Follow these steps to run the project:
 
 ## Files
 - **UK_Biobank_PH_Comorbidities.ipynb**: Main analysis notebook containing code for data processing and visualization.
+- **All ICD10 Codes with Diseases Names and Dates Data.csv**: Dataset containing ICD10 codes records for participants along with diagnosis dates.
+- **Dataset with ICD10 and Diseases Names and Death Records.csv**: Dataset containing ICD10 codes records for participants along with diagnosis dates and death records.
 - **Death Date Records.csv**: Dataset containing death date records for participants.
 - **Death Cause Records.csv**: Dataset detailing causes of death.
 - **GP Prescription Records.csv**: Dataset listing prescribed drugs and quantities.
+- **PH Patients with Commorbidities Dataset.csv**: PH Cohort dataset with PH comorbidities
 - **README.md**: Comprehensive documentation for the project.
 
 ## License
