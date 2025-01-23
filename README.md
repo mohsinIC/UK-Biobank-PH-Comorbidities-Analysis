@@ -24,7 +24,11 @@ This project analyzes Pulmonary Hypertension (PH) comorbidities in UK Biobank pa
 The code utilizes the following Python libraries for efficient data processing and visualization:
 
 ```bash
-pip install numpy pandas matplotlib
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from datetime import datetime
+import matplotlib.pyplot as plt
 ```
 
 # UK Biobank PH Comorbidities Analysis
