@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 - **numpy**: For numerical computations and array handling.
 - **pandas**: For powerful data manipulation and analysis.
 - **matplotlib**: For creating visualizations to identify data trends and patterns.
-- 
+ 
 ## Requirements
 Install the following Python libraries:
 
@@ -50,8 +50,8 @@ The project requires the following datasets in CSV format:
 - **Death Cause Records.csv**: Dataset detailing causes of death.
 - **GP Prescription Records.csv**: Dataset listing prescribed drugs and quantities.
 - **PH Patients with Commorbidities Dataset.csv**: PH Cohort dataset with PH comorbidities
-4. Additional structured datasets generated during preprocessing.
 
+Additional structured datasets generated during preprocessing.
 Each dataset contributes to building a comprehensive view of participant health data, enabling detailed analysis of Pulmonary Hypertension comorbidities.
 
 
@@ -86,8 +86,5 @@ Each dataset contributes to building a comprehensive view of participant health 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
 Feel free to explore and contribute to the project for further advancements in Pulmonary Hypertension research.
 
