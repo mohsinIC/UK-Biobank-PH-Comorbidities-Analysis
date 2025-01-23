@@ -1,5 +1,5 @@
 
-# UK Biobank PH Comorbidities Analysis
+# Preprocessing of UK Biobank for PH Cohort (Pre-PH and Post-PH)
 
 ## Overview
 This project analyzes Pulmonary Hypertension (PH) comorbidities in UK Biobank participants. Using data on death records, diagnoses, and demographic information, the code identifies trends, performs data cleaning, and visualizes key results. The analysis involves extracting and structuring data, handling missing values, and creating comprehensive datasets for further exploration and insights.
@@ -23,7 +23,9 @@ This project analyzes Pulmonary Hypertension (PH) comorbidities in UK Biobank pa
 ### Libraries Used
 The code utilizes the following Python libraries for efficient data processing and visualization:
 
-=======
+```bash
+pip install numpy pandas matplotlib
+```
 
 # UK Biobank PH Comorbidities Analysis
 
@@ -43,7 +45,7 @@ Install the following Python libraries:
 pip install numpy pandas matplotlib
 ```
 
-<<<<<<< HEAD
+
 - **numpy**: For numerical computations and array handling.
 - **pandas**: For powerful data manipulation and analysis.
 - **matplotlib**: For creating visualizations to identify data trends and patterns.
@@ -62,32 +64,28 @@ Follow these steps to run the project:
 
 =======
 ## Usage
->>>>>>> 164f7a69863c7d2b625767f899ac50d6124216c5
+
 1. Clone this repository to your local system:
    ```bash
    git clone <repository_url>
    ```
-<<<<<<< HEAD
-
-=======
->>>>>>> 164f7a69863c7d2b625767f899ac50d6124216c5
+   
 2. Navigate to the project directory:
    ```bash
    cd <repository_name>
    ```
-<<<<<<< HEAD
+
 
 3. Install the required libraries using the command provided above.
 
 4. Open the Jupyter Notebook in your environment:
 =======
 3. Open the Jupyter Notebook in your environment:
->>>>>>> 164f7a69863c7d2b625767f899ac50d6124216c5
+
    ```bash
    jupyter notebook UK_Biobank_PH_Comorbidities.ipynb
    ```
 
-<<<<<<< HEAD
 5. Execute the notebook cells step-by-step to:
    - Import datasets.
    - Preprocess and clean the data.
@@ -109,7 +107,6 @@ Feel free to explore and contribute to the project for further advancements in P
 =======
 ## Files
 - `UK_Biobank_PH_Comorbidities.ipynb`: Main analysis notebook.
-- `Death Date Record.csv`: Dataset containing death date records for participants.
 - `README.md`: Documentation for the project.
 
 ## License
