@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # UK Biobank PH Comorbidities Analysis
 
 ## Overview
