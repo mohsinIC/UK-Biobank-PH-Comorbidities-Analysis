@@ -9,6 +9,7 @@ This project analyzes Pulmonary Hypertension (PH) comorbidities in UK Biobank pa
   - Death Date Records: Contains death dates of participants.
   - Death Cause Records: Includes causes of death for participants.
   - GP Prescription Records: Lists prescribed drugs and quantities.
+  - ICD10 codes Records: Includes ICD10 codes along with diseases names and diagnosis dates for particpants
 - Preprocessing steps:
   - Extraction of ICD-10 and Main ICD-10 codes with related diseases and diagnosis dates.
   - Handling missing values (e.g., NaNs) and empty strings.
