@@ -1,7 +1,7 @@
 # UK Biobank and Pulmonary Hypertension (PH) Cohort: Demographic Table Generation
 
 ## Overview
-This Jupyter Notebook processes the UK Biobank data to create a comprehensive demographic table for participants, focusing on the Pulmonary Hypertension (PH) cohort. It performs data preprocessing, cleaning, and formatting to ensure the data is ready for analysis and visualization.
+This Jupyter Notebook processes the UK Biobank data to create a comprehensive demographic table for participants, focusing on the Pulmonary Hypertension (PH) cohort. It performs data preprocessing, cleaning, and formatting to ensure the data is ready for analysis and visualization
 
 ## Features
 - **Data Import**: Reads raw datasets from CSV or other structured files into pandas DataFrames.
