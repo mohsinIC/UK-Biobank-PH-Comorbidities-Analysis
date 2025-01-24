@@ -33,7 +33,29 @@ This notebook requires input files from the UK Biobank, which include:
 - Cleaned and preprocessed datasets for further analysis.
 
 ## Usage
-1. **Clone the repository**:
+Clone this repository to your local system:
    ```bash
    git clone <repository_url>
-   cd <repository_directory>
+   ```
+## Install dependencies: 
+Ensure all required Python libraries are installed:
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+## Run the notebook: 
+Open the notebook in Jupyter or a compatible environment:
+```bash
+jupyter notebook "UKB and PH Cohort for Demographic Table.ipynb"
+```
+## Follow the steps: 
+Execute each cell in the notebook sequentially to process the data and generate the demographic table.
+
+## Files
+- **UKB and PH Cohort for Demographic Table.ipynb:** The main notebook for processing and generating the demographic table.
+- **Input files:** Required datasets (ensure they are placed in the appropriate directory as specified in the notebook).
+- **Output files:** Cleaned data and demographic tables (generated during notebook execution).
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
