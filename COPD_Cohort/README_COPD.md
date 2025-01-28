@@ -193,6 +193,6 @@ cox_model.plot()
 
 For further details, please contact:
 
-**Your Name**  
-**Institution**  
-**Email**: your.email@example.com  
+**Your Name**  Dr MOHSIN MASOOD
+**Institution**  NHLI Department, Imperial College London
+**Email**: m.masood@imperial.ac.uk 
