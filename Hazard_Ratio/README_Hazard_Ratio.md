@@ -69,15 +69,6 @@ The analysis uses separate datasets for PH, HF, and COPD. Data is processed as f
 - Identify overlapping pathways contributing to mortality risk.
 
 ---
-
-## **Key Findings**
-- Certain pathways (**E11.9 → I10 → PH/HF/COPD**) show a higher mortality risk.
-- **Hypercholesterolemia (E78.0) and Hypertension (I10)** are major contributors.
-- **COPD shows higher mortality risks than HF in several pathways**.
-- Some pathways are unique to each cohort, highlighting different risk factors.
-
----
-
 ## **Visualizations**
 1. **Cox Hazard Ratio Plots** for each condition comparison.
 2. **Disease Progression Pathway Diagrams** for PH, HF, and COPD.
