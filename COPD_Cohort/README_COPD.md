@@ -189,10 +189,3 @@ cox_model.plot()
 
 ---
 
-## Contact
-
-For further details, please contact:
-
-**Your Name**  
-**Institution**  
-**Email**: your.email@example.com  
