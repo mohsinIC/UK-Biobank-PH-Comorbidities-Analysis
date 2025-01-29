@@ -33,21 +33,48 @@ install.packages(c("dplyr", "igraph", "bupaR", "processcheckR", "bupaverse",
 ## **How to Use**  
 
 ### **Clone this Repository:**  
+First, navigate to your preferred working directory and clone this repository:
 
-```sh
-git clone https://github.com/your-github-username/process-mining-ph.git
-cd process-mining-ph
-
-
-
-## Usage
-Clone this repository to your local system:
-   ```bash
-   git clone <repository_url>
-   ```
-## Install dependencies: 
-Ensure all required Python libraries are installed:
 ```bash
-pip install pandas numpy matplotlib seaborn
+git clone https://github.com/YOUR_GITHUB_USERNAME/UK-Biobank-PH-Comorbidities-Analysis.git
+cd UK-Biobank-PH-Comorbidities-Analysis/Process_Mining
 ```
+### **Open the Script in RStudio or R Terminal**
+
+Open RStudio or your R terminal.
+Load the script **Process_Mining.R**.
+
+### **Modify the File Path**
+    Locate the following line in the script:
+```bash
+file_path <- "file path"
+```
+Replace **"file path"** with the actual path of your CSV dataset.
+
+### **Run the Script**
+
+Execute the script in RStudio or your R terminal.
+The script will preprocess clinical data, generate process maps, and perform event log analysis.
+
+## **Generated Outputs & Analysis**
+
+### **Process Map (Absolute Frequency)**
+
+   - Visualizes frequent comorbidity transition sequences in PH patients.
+   - Helps identify common disease progression pathways.
+
+### **Performance Process Map (Mean Duration)**
+
+   - Displays the average time spent in different disease states.
+   - Aids in understanding delays and progression rates in PH.
+
+### **Event Log Exploration**
+
+   - Uses trace_explorer() to analyze common pathways in PH patients.
+   - Filters high-frequency patient journeys to focus on significant transitions.
+
+### **Animated Patient Pathways**
+
+    - Creates dynamic visualizations of disease progression over time.
+    - Useful for identifying high-risk pathways and predicting outcomes.
 
