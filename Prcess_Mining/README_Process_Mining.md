@@ -74,6 +74,8 @@ The script will preprocess clinical data, generate process maps, and perform eve
    - Filters high-frequency patient journeys to focus on significant transitions.
 
 ### **Animated Patient Pathways**
+   - Creates dynamic visualizations of disease progression over time.
+   - Useful for identifying high-risk pathways and predicting outcomes.
 
     
 
