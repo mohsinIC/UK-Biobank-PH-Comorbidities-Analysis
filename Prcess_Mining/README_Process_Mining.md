@@ -45,7 +45,7 @@ Open RStudio or your R terminal.
 Load the script **Process_Mining.R**.
 
 ### **Modify the File Path**
-    Locate the following line in the script:
+Locate the following line in the script:
 ```bash
 file_path <- "file path"
 ```
