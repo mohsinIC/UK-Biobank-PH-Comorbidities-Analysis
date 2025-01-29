@@ -1,7 +1,7 @@
 
-# Descriptive analsys of MyHeartCounts data for Pulmonary Hypertension (PH)
+# Descriptive analysis of Longitudinal Patterns of Comorbidities
 
-This repository contains Python files to analyse wearable data for pulmonary hypertension.
+This repository contains Python and R files to analyse Longitudinal Patterns of Comorbidities in Pulmonary Hypertension using UK Biobank data
 
 **January 2025**
 
