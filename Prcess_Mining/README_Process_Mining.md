@@ -25,9 +25,10 @@ By leveraging **event log analysis, process maps, and survival trajectories**, t
 ## **Installation & Dependencies**  
 Ensure you have R installed on your system. Then, install the required R packages:  
 
-```r
+```bash
 install.packages(c("dplyr", "igraph", "bupaR", "processcheckR", "bupaverse", 
                    "gganimate", "transformr", "processanimateR", "networkD3", "data.table", "zoo"))
+```
 
 ## **How to Use**  
 
@@ -38,4 +39,15 @@ git clone https://github.com/your-github-username/process-mining-ph.git
 cd process-mining-ph
 
 
+
+## Usage
+Clone this repository to your local system:
+   ```bash
+   git clone <repository_url>
+   ```
+## Install dependencies: 
+Ensure all required Python libraries are installed:
+```bash
+pip install pandas numpy matplotlib seaborn
+```
 
