@@ -29,9 +29,9 @@ Ensure you have R installed on your system. Then, install the required R package
 install.packages(c("dplyr", "igraph", "bupaR", "processcheckR", "bupaverse", 
                    "gganimate", "transformr", "processanimateR", "networkD3", "data.table", "zoo"))
 
-How to Use
+## **How to Use**
 
-    Clone this repository:
+**Clone this repository:**
 
     git clone https://github.com/your-github-username/process-mining-ph.git
     cd process-mining-ph
