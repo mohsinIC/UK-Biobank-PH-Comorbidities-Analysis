@@ -1,0 +1,92 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/ \
+--out COPD_to_others \
+--rg COPD.sumstats.gz,HF.sumstats.gz,CA.sumstats.gz \
+--w-ld-chr /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/ 
+
+Beginning analysis at Thu Jun 26 22:24:50 2025
+Reading summary statistics from COPD.sumstats.gz ...
+Read summary statistics for 1192757 SNPs.
+Reading reference panel LD Score from /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 1180461 SNPs remain.
+After merging with regression SNP LD, 1180461 SNPs remain.
+Computing rg for phenotype 2/3
+Reading summary statistics from HF.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1180461 SNPs remain.
+1169708 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.0398 (0.0039)
+Lambda GC: 1.1207
+Mean Chi^2: 1.1725
+Intercept: 1.0136 (0.0072)
+Ratio: 0.0787 (0.042)
+
+Heritability of phenotype 2/3
+-----------------------------
+Total Observed scale h2: 0.0088 (0.0005)
+Lambda GC: 1.3068
+Mean Chi^2: 1.3645
+Intercept: 1.0795 (0.0089)
+Ratio: 0.2181 (0.0245)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0015 (0.0008)
+Mean z1*z2: 0.0206
+Intercept: 0.004 (0.0048)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0796 (0.0438)
+Z-score: 1.817
+P: 0.0692
+
+Computing rg for phenotype 3/3
+Reading summary statistics from CA.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1180461 SNPs remain.
+1171145 SNPs with valid alleles.
+
+Heritability of phenotype 3/3
+-----------------------------
+Total Observed scale h2: 0.1158 (0.0077)
+Lambda GC: 1.9383
+Mean Chi^2: 2.3252
+Intercept: 1.39 (0.0239)
+Ratio: 0.2943 (0.018)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0023 (0.0023)
+Mean z1*z2: -0.0201
+Intercept: -0.0062 (0.007)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0333 (0.0347)
+Z-score: -0.9591
+P: 0.3375
+
+
+Summary of Genetic Correlation Results
+               p1              p2      rg      se       z       p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+ COPD.sumstats.gz  HF.sumstats.gz  0.0796  0.0438  1.8170  0.0692  0.0088     0.0005  1.0795     0.0089    0.0040       0.0048
+ COPD.sumstats.gz  CA.sumstats.gz -0.0333  0.0347 -0.9591  0.3375  0.1158     0.0077  1.3900     0.0239   -0.0062       0.0070
+
+Analysis finished at Thu Jun 26 22:25:10 2025
+Total time elapsed: 20.02s

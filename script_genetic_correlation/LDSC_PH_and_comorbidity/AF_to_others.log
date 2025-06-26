@@ -1,0 +1,174 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/ \
+--out AF_to_others \
+--rg AF.sumstats.gz,T2D.sumstats.gz,asthma.sumstats.gz,COPD.sumstats.gz,HF.sumstats.gz,CA.sumstats.gz \
+--w-ld-chr /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/ 
+
+Beginning analysis at Thu Jun 26 22:23:34 2025
+Reading summary statistics from AF.sumstats.gz ...
+Read summary statistics for 1188455 SNPs.
+Reading reference panel LD Score from /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 1178508 SNPs remain.
+After merging with regression SNP LD, 1178508 SNPs remain.
+Computing rg for phenotype 2/6
+Reading summary statistics from T2D.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1178508 SNPs remain.
+183209 SNPs with valid alleles.
+WARNING: number of SNPs less than 200k; this is almost always bad.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.0273 (0.0045)
+Lambda GC: 1.2966
+Mean Chi^2: 1.607
+Intercept: 1.0411 (0.0409)
+Ratio: 0.0677 (0.0673)
+
+Heritability of phenotype 2/6
+-----------------------------
+Total Observed scale h2: 0.1776 (0.0159)
+Lambda GC: 2.2159
+Mean Chi^2: 3.1891
+Intercept: 1.0466 (0.0523)
+Ratio: 0.0213 (0.0239)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0104 (0.0028)
+Mean z1*z2: 0.1714
+Intercept: 0.0233 (0.0196)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1497 (0.0435)
+Z-score: 3.4435
+P: 0.0006
+
+Computing rg for phenotype 3/6
+Reading summary statistics from asthma.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1178508 SNPs remain.
+1168354 SNPs with valid alleles.
+
+Heritability of phenotype 3/6
+-----------------------------
+Total Observed scale h2: 0.0789 (0.0071)
+Lambda GC: 1.3685
+Mean Chi^2: 1.6748
+Intercept: 1.0558 (0.0198)
+Ratio: 0.0826 (0.0293)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0043 (0.0013)
+Mean z1*z2: 0.0551
+Intercept: 0.007 (0.0069)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0987 (0.0291)
+Z-score: 3.3966
+P: 0.0007
+
+Computing rg for phenotype 4/6
+Reading summary statistics from COPD.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1178508 SNPs remain.
+1177103 SNPs with valid alleles.
+
+Heritability of phenotype 4/6
+-----------------------------
+Total Observed scale h2: 0.0399 (0.0038)
+Lambda GC: 1.1207
+Mean Chi^2: 1.1726
+Intercept: 1.0132 (0.0074)
+Ratio: 0.0767 (0.043)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0009 (0.0012)
+Mean z1*z2: 0.0234
+Intercept: 0.0185 (0.0056)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0296 (0.0392)
+Z-score: 0.7533
+P: 0.4513
+
+Computing rg for phenotype 5/6
+Reading summary statistics from HF.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1178508 SNPs remain.
+1167686 SNPs with valid alleles.
+
+Heritability of phenotype 5/6
+-----------------------------
+Total Observed scale h2: 0.0087 (0.0005)
+Lambda GC: 1.3068
+Mean Chi^2: 1.3628
+Intercept: 1.0805 (0.0088)
+Ratio: 0.2219 (0.0242)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0081 (0.0006)
+Mean z1*z2: 0.3637
+Intercept: 0.1632 (0.0079)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.564 (0.0277)
+Z-score: 20.3384
+P: 5.8784e-92
+
+Computing rg for phenotype 6/6
+Reading summary statistics from CA.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1178508 SNPs remain.
+1169902 SNPs with valid alleles.
+
+Heritability of phenotype 6/6
+-----------------------------
+Total Observed scale h2: 0.1153 (0.0077)
+Lambda GC: 1.9424
+Mean Chi^2: 2.3262
+Intercept: 1.3935 (0.0239)
+Ratio: 0.2967 (0.018)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0135 (0.0013)
+Mean z1*z2: 0.1847
+Intercept: 0.0157 (0.0072)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.2573 (0.0235)
+Z-score: 10.966
+P: 5.5653e-28
+
+
+Summary of Genetic Correlation Results
+             p1                  p2      rg      se        z           p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+ AF.sumstats.gz     T2D.sumstats.gz  0.1497  0.0435   3.4435  5.7427e-04  0.1776     0.0159  1.0466     0.0523    0.0233       0.0196
+ AF.sumstats.gz  asthma.sumstats.gz  0.0987  0.0291   3.3966  6.8226e-04  0.0789     0.0071  1.0558     0.0198    0.0070       0.0069
+ AF.sumstats.gz    COPD.sumstats.gz  0.0296  0.0392   0.7533  4.5127e-01  0.0399     0.0038  1.0132     0.0074    0.0185       0.0056
+ AF.sumstats.gz      HF.sumstats.gz  0.5640  0.0277  20.3384  5.8784e-92  0.0087     0.0005  1.0805     0.0088    0.1632       0.0079
+ AF.sumstats.gz      CA.sumstats.gz  0.2573  0.0235  10.9660  5.5653e-28  0.1153     0.0077  1.3935     0.0239    0.0157       0.0072
+
+Analysis finished at Thu Jun 26 22:24:07 2025
+Total time elapsed: 32.71s

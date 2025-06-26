@@ -1,0 +1,119 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/ \
+--out Asthma_to_others \
+--rg asthma.sumstats.gz,COPD.sumstats.gz,HF.sumstats.gz,CA.sumstats.gz \
+--w-ld-chr /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/ 
+
+Beginning analysis at Thu Jun 26 22:24:25 2025
+Reading summary statistics from asthma.sumstats.gz ...
+Read summary statistics for 1183135 SNPs.
+Reading reference panel LD Score from /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /home/panh77/scratch/415_LDSC/0_resource_data/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 1171560 SNPs remain.
+After merging with regression SNP LD, 1171560 SNPs remain.
+Computing rg for phenotype 2/4
+Reading summary statistics from COPD.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1171560 SNPs remain.
+1171365 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.0792 (0.007)
+Lambda GC: 1.3685
+Mean Chi^2: 1.6733
+Intercept: 1.0531 (0.0196)
+Ratio: 0.0789 (0.0291)
+
+Heritability of phenotype 2/4
+-----------------------------
+Total Observed scale h2: 0.0397 (0.0037)
+Lambda GC: 1.1238
+Mean Chi^2: 1.1728
+Intercept: 1.0136 (0.0077)
+Ratio: 0.0787 (0.0443)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0301 (0.0029)
+Mean z1*z2: 0.2979
+Intercept: 0.128 (0.0076)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.5377 (0.0324)
+Z-score: 16.5735
+P: 1.0833e-61
+
+Computing rg for phenotype 3/4
+Reading summary statistics from HF.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1171560 SNPs remain.
+1161006 SNPs with valid alleles.
+
+Heritability of phenotype 3/4
+-----------------------------
+Total Observed scale h2: 0.0088 (0.0005)
+Lambda GC: 1.3101
+Mean Chi^2: 1.3661
+Intercept: 1.0797 (0.009)
+Ratio: 0.2177 (0.0246)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0045 (0.0007)
+Mean z1*z2: 0.0794
+Intercept: 0.0085 (0.0059)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1695 (0.0269)
+Z-score: 6.2962
+P: 3.0513e-10
+
+Computing rg for phenotype 4/4
+Reading summary statistics from CA.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1171560 SNPs remain.
+1162738 SNPs with valid alleles.
+
+Heritability of phenotype 4/4
+-----------------------------
+Total Observed scale h2: 0.1149 (0.0078)
+Lambda GC: 1.9424
+Mean Chi^2: 2.3299
+Intercept: 1.3945 (0.0248)
+Ratio: 0.2966 (0.0186)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0112 (0.0022)
+Mean z1*z2: 0.0816
+Intercept: -0.0066 (0.0076)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1172 (0.0223)
+Z-score: 5.2592
+P: 1.4469e-07
+
+
+Summary of Genetic Correlation Results
+                 p1                p2      rg      se        z           p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+ asthma.sumstats.gz  COPD.sumstats.gz  0.5377  0.0324  16.5735  1.0833e-61  0.0397     0.0037  1.0136     0.0077    0.1280       0.0076
+ asthma.sumstats.gz    HF.sumstats.gz  0.1695  0.0269   6.2962  3.0513e-10  0.0088     0.0005  1.0797     0.0090    0.0085       0.0059
+ asthma.sumstats.gz    CA.sumstats.gz  0.1172  0.0223   5.2592  1.4469e-07  0.1149     0.0078  1.3945     0.0248   -0.0066       0.0076
+
+Analysis finished at Thu Jun 26 22:24:50 2025
+Total time elapsed: 24.24s
