@@ -6,7 +6,11 @@ This repository contains Python and R files to analyse Longitudinal Patterns of 
 **July 2025**
 
 **Publication**: Masood, M. et al. Longitudinal Patterns of Comorbidities in Pulmonary Hypertension: Insights from UK Biobank. XX. Submitted July 25. Under review.<br> 
-**Authors**: Masood, M. (Imperial College London)<br>
+**Authors**: Masood, M. (Imperial College London)<be>
+[![DOI] <a href="https://doi.org/10.5281/zenodo.15747765"><img src="https://zenodo.org/badge/920683947.svg" alt="DOI"></a>
+
+
+
 
 
 ## Project Overview
