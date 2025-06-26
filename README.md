@@ -3,9 +3,9 @@
 
 This repository contains Python and R files to analyse Longitudinal Patterns of Comorbidities in Pulmonary Hypertension using UK Biobank data
 
-**January 2025**
+**July 2025**
 
-**Publication**: Masood, M. et al. Longitudinal Patterns of Comorbidities Reveal Risk and Progression of Pulmonary Hypertension. XX. Submitted Jan 25. Under review.<br> 
+**Publication**: Masood, M. et al. Longitudinal Patterns of Comorbidities in Pulmonary Hypertension: Insights from UK Biobank. XX. Submitted July 25. Under review.<br> 
 **Authors**: Masood, M. (Imperial College London)<br>
 
 
