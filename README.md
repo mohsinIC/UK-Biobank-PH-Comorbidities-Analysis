@@ -29,7 +29,20 @@ This project explores longitudinal comorbidities of three matched cohorts: Chron
 
 To reproduce the analyses and results, please follow the instructions in each subdirectory's README file.  These READMEs will provide specific details about the data used, the scripts to run, and the expected outputs. The codes are written in R (version) and python.
 Installation guides:
-PLEASE ADD
+### Installation Guide
+
+**1. Clone the repository:**
+```bash
+git clone https://github.com/mohsinIC/UK-Biobank-PH-Comorbidities-Analysis.git
+cd UK-Biobank-PH-Comorbidities-Analysis
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+
+install.packages(c("dplyr", "ggplot2", "survival", "bupaR", "eventdataR", "processmapR"))
+
 
 ## Dependencies
 
